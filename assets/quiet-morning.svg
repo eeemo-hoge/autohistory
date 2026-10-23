@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">薄明の空</title>
+  <desc id="desc">淡い青紫の空に月と星が浮かび、遠くの水平線が静かに広がる。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9e8f0"/>
+      <stop offset=".55" stop-color="#d9dce8"/>
+      <stop offset="1" stop-color="#c9d3df"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f5f1ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f5f1ee" stop-opacity=".72"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#sky)"/>
+  <circle cx="906" cy="105" r="39" fill="#f7f3e9" opacity=".88"/>
+  <circle cx="920" cy="92" r="37" fill="#d9dce8" opacity=".88"/>
+  <g fill="#fff" opacity=".72">
+    <circle cx="215" cy="91" r="2"/>
+    <circle cx="325" cy="151" r="1.6"/>
+    <circle cx="554" cy="73" r="1.8"/>
+    <circle cx="1030" cy="186" r="1.5"/>
+    <circle cx="760" cy="117" r="1.3"/>
+  </g>
+  <path d="M0 248c139-25 247 15 388-2s236-33 378-7 269 23 434-4v125H0Z" fill="#aebdca" opacity=".48"/>
+  <path d="M0 278c171-16 264 10 422 0s278-20 409-2 256 20 369 3v81H0Z" fill="#a5b6c3" opacity=".42"/>
+  <rect y="206" width="1200" height="154" fill="url(#haze)"/>
+  <path d="M0 313c230-9 411 5 615-2s390-8 585 0" fill="none" stroke="#f7f3ed" stroke-opacity=".65" stroke-width="2"/>
+</svg>
