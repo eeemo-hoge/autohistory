@@ -46,4 +46,53 @@ factyear/2025/1/1.txt
 
 [ライセンス](liscence)
 
+
+# autohistory
+
+> A little space to jot things down as the days slip by.
+
+autohistory is a Bash script that creates blank text files for your daily entries, organised by year, month and day. Rather than dictating what you should write, it gently prepares a space for you to begin.
+
+![Illustration of the moon floating in the twilight sky](assets/quiet-morning.svg)
+
+## How to use
+
+Run the script in the location where you wish to keep your records.
+
+```bash
+bash /path/to/autohistory.sh
+```
+
+If the repository is open, you can run it as follows:
+
+```bash
+bash autohistory.sh
+```
+
+## What is created
+
+For each year from 1998 to 2025, it creates empty `.txt` files for each month in the following five folders.
+
+```text
+year/2025/1/1.txt
+refyear/2025/1/1.txt
+dreamyear/2025/1/1.txt
+ventingyear/2025/1/1.txt
+factyear/2025/1/1.txt
+```
+
+It also takes into account the number of days in each month and the number of days in February during leap years. A file for the day the script is run will also be created in the `year` folder and in each of the four category folders.
+
+## Before running
+
+**Any existing `.txt` files with the same name will be cleared.** As the script overwrites files, please do not run it in a location containing important records.
+
+This script merely creates files and folders. It does not read from or write to the contents of any records.
+
+---
+
+*To my future self.*
+
+[Licence](licence)
+
 license is "[LICENSE](LICENSE)"
