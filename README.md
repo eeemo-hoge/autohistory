@@ -46,5 +46,4 @@ factyear/2025/1/1.txt
 
 [ライセンス](liscence)
 
-[description](LICENSE)
 license is "[LICENSE](LICENSE)"
