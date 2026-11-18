@@ -45,3 +45,5 @@ factyear/2025/1/1.txt
 *いつかの自分へ。*
 
 [ライセンス](liscence)
+
+[description](LICENSE)
